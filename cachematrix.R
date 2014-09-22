@@ -5,6 +5,8 @@
 
 makeCacheMatrix <- function(x = matrix()) {
     
+    ## Create a special matrix object
+    
     inv <- NULL
     
     set <- function(y) {
@@ -27,6 +29,8 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
+    
+  ## Return the inverse of the matrix 
 
   inv <- x$getinverse()
   
